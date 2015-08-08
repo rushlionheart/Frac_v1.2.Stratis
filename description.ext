@@ -91,4 +91,3 @@ class params
 		file = "addons\3D_Markers\3Dmarkers.sqf";
 	};
 };
-
