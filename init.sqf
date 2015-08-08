@@ -86,5 +86,6 @@ if (hasInterface || isServer) then
 	[] execVM "addons\lsd_nvg\init.sqf";
 	[] execVM "addons\Grenades\initGrenades.sqf"; // Toxic Gas Grenades
 	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";
+	[] execVM "addons\scripts\servercredits.sqf"; //Intro Credits
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 };
