@@ -39,7 +39,7 @@ class VehicleManagement {
 		{
 			idc = -1;
 			colorText[] = {1, 1, 1, 1};
-			colorBackground[] = {0,0,0,0};
+			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "#(argb,8,8,3)color(0.25,0.51,0.96,0.8)";
 
 			x = 0.295 * safezoneW + safezoneX;
@@ -51,6 +51,7 @@ class VehicleManagement {
 		class menuTitle: w_RscText
 		{
 			idc = -1;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Vehicle Management";
 			font = "PuristaMedium";
 			sizeEx = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
@@ -130,6 +131,7 @@ class VehicleManagement {
 		class civButton: w_RscButton
 		{
 			idc = vehicleManagementCivButton;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[0] execVM 'client\systems\adminPanel\populateVehicles.sqf'";
 			text = "Cars/Trucks";
 			x = 0.305 * safezoneW + safezoneX;
@@ -141,6 +143,7 @@ class VehicleManagement {
 		class heliButton: w_RscButton
 		{
 			idc = vehicleManagementHeliButton;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[1] execVM 'client\systems\adminPanel\populateVehicles.sqf'";
 			text = "Helicopters";
 			x = 0.384 * safezoneW + safezoneX;
@@ -152,6 +155,7 @@ class VehicleManagement {
 		class planeButton: w_RscButton
 		{
 			idc = vehicleManagementPlaneButton;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[2] execVM 'client\systems\adminPanel\populateVehicles.sqf'";
 			text = "Planes";
 			x = 0.305 * safezoneW + safezoneX;
@@ -163,6 +167,7 @@ class VehicleManagement {
 		class tankButton: w_RscButton
 		{
 			idc = vehicleManagementTankButton;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[3] execVM 'client\systems\adminPanel\populateVehicles.sqf'";
 			text = "Tanks";
 			x = 0.384 * safezoneW + safezoneX;
@@ -174,6 +179,7 @@ class VehicleManagement {
 		class hackedVehiclesButton: w_RscButton
 		{
 			idc = -1;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[4] execVM 'client\systems\adminPanel\populateVehicles.sqf'";
 			text = "Hacked Vehicles";
 			x = 0.462 * safezoneW + safezoneX;
@@ -185,6 +191,7 @@ class VehicleManagement {
 		class deleteButton: w_RscButton
 		{
 			idc = -1;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "execVM 'client\systems\adminPanel\deleteVehicle.sqf'";
 			text = "Delete Vehicle";
 			x = 0.554 * safezoneW + safezoneX;
@@ -197,6 +204,7 @@ class VehicleManagement {
 		class deleteAllButton: w_RscButton
 		{
 			idc = -1;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "execVM 'client\systems\adminPanel\deleteAllHackedVehicles.sqf'";
 			text = "Delete All";
 			x = 0.554 * safezoneW + safezoneX;

@@ -28,6 +28,7 @@ class GroupManagement {
 
 		class MainTitle : w_RscText {
 			idc = -1;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Group Management";
 			sizeEx = 0.04;
 			shadow = 2;
@@ -37,6 +38,7 @@ class GroupManagement {
 
 		class InviteTitleText : w_RscText {
 			idc = -1;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Players";
 			sizeEx = 0.025;
 			shadow = 2;
@@ -46,6 +48,7 @@ class GroupManagement {
 
 		class GroupTitleText : w_RscText {
 			idc = -1;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Your Group";
 			sizeEx = 0.025;
 			shadow = 2;
@@ -89,6 +92,7 @@ class GroupManagement {
 		class PromotePlayerButton : w_RscButton {
 			idc = groupManagementPromoteButton;
 			text = "Promote";
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[] execVM 'client\systems\groups\promotePlayer.sqf'";
 			x = 0.3075; y = 0.200;
 			w = 0.125; h = 0.033 * safezoneH;
@@ -98,6 +102,7 @@ class GroupManagement {
 		class InviteButton : w_RscButton {
 			idc = groupManagementInviteButton;
 			text = "Invite";
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[] execVM 'client\systems\groups\inviteToGroup.sqf'";
 			x = 0.3075; y = 0.250;
 			w = 0.125; h = 0.033 * safezoneH;
@@ -107,6 +112,7 @@ class GroupManagement {
 		class KickButton : w_RscButton {
 			idc = groupManagementKickButton;
 			text = "Kick";
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[] execVM 'client\systems\groups\kickFromGroup.sqf'";
 			x = 0.3075; y = 0.300;
 			w = 0.125; h = 0.033 * safezoneH;
@@ -116,6 +122,7 @@ class GroupManagement {
 		class DisbandButton : w_RscButton {
 			idc = groupManagementDisbandButton;
 			text = "Disband";
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[] execVM 'client\systems\groups\disbandGroup.sqf'";
 			x = 0.3075; y = 0.350;
 			w = 0.125; h = 0.033 * safezoneH;
@@ -125,6 +132,7 @@ class GroupManagement {
 		class LeaveButton : w_RscButton {
 			idc = groupManagementLeaveButton;
 			text = "Leave Group";
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[] execVM 'client\systems\groups\leaveGroup.sqf'";
 			x = 0.3075; y = 0.350;
 			w = 0.125; h = 0.033 * safezoneH;

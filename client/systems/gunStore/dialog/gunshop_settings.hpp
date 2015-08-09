@@ -138,6 +138,7 @@ class gunshopd
 			action = "[0] execVM 'client\systems\gunStore\buyGuns.sqf'";
 			text = "Buy";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.334 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.507 * SZ_SCALE);
@@ -151,6 +152,7 @@ class gunshopd
 			action = "[0] execVM 'client\systems\gunStore\buyAmmo.sqf'";
 			text = "Buy";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.6233 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.507 * SZ_SCALE);
@@ -164,6 +166,7 @@ class gunshopd
 			action = "[0] call populateGunStore";
 			text = "Handguns";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.075 * SZ_SCALE);
@@ -177,6 +180,7 @@ class gunshopd
 			action = "[1] call populateGunStore";
 			text = "SMGs";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.125 * SZ_SCALE);
@@ -190,6 +194,7 @@ class gunshopd
 			action = "[2] call populateGunStore";
 			text = "Rifles";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.175 * SZ_SCALE);
@@ -203,6 +208,7 @@ class gunshopd
 			action = "[3] call populateGunStore";
 			text = "LMGs";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.225 * SZ_SCALE);
@@ -216,6 +222,7 @@ class gunshopd
 			action = "[5] call populateGunStore";
 			text = "Launchers";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.275 * SZ_SCALE);
@@ -229,6 +236,7 @@ class gunshopd
 			action = "[6] call populateGunStore";
 			text = "Ordnance";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.325 * SZ_SCALE);
@@ -242,6 +250,7 @@ class gunshopd
 			action = "[7] call populateGunStore";
 			text = "Accessories";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.375 * SZ_SCALE);
@@ -256,6 +265,7 @@ class gunshopd
 			action = "[8] call populateGunStore";
 			text = "Armament";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.425 * SZ_SCALE);
@@ -269,6 +279,7 @@ class gunshopd
 			action = "[] execVM 'client\systems\selling\sellWeapon.sqf'";
 			text = "Sell Weapon";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.23 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.59 * SZ_SCALE);
@@ -282,6 +293,7 @@ class gunshopd
 			action = "[] execVM 'client\systems\selling\sellUniform.sqf'";
 			text = "Sell Uniform";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + ((0.604 - 0.25) * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.59 * SZ_SCALE);
@@ -295,6 +307,7 @@ class gunshopd
 			action = "[] execVM 'client\systems\selling\sellVest.sqf'";
 			text = "Sell Vest";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.478 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.59 * SZ_SCALE);
@@ -308,6 +321,7 @@ class gunshopd
 			action = "[] execVM 'client\systems\selling\sellBackpack.sqf'";
 			text = "Sell Backpack";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.602 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.59 * SZ_SCALE);
@@ -321,6 +335,7 @@ class gunshopd
 			action = "closeDialog 0";
 			text = "Cancel";
 			sizeEx = GunStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GunStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GunStoreMainBG_Y + (0.59 * SZ_SCALE);
