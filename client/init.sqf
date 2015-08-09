@@ -143,6 +143,11 @@ A3W_scriptThreads pushBack execVM "addons\Lootspawner\LSclientScan.sqf";
 [] execVM "addons\UAV_Control\functions.sqf";
 [] execVM "addons\disableThermal\disablethermal.sqf";  //disable thermal vision
 
+// View Distance Settings 
+CHVD_allowNoGrass = true; // Set 'false' if you want to disable "None" option for terrain (default: true)
+CHVD_maxView = 2500; // Set maximum view distance (default: 12000)
+CHVD_maxObj = 2000; // Set maximimum object view distance (default: 12000)
+
 call compile preprocessFileLineNumbers "client\functions\generateAtmArray.sqf";
 [] execVM "client\functions\drawPlayerMarkers.sqf";
 

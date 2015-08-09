@@ -168,10 +168,10 @@ class playerSettings {
 			w = 0.125; h = 0.033 * safezoneH;
 		};
 		
-		/*class btnDistanceNear : w_RscButton {
+		class btnDistanceNear : w_RscButton {
 			idc = -1;
 			text = "Near";
-			onButtonClick = "setViewDistance 1100;";
+			onButtonClick = "setViewDistance 1200; setObjectViewDistance 900; setTerrainGrid 45;";
 			x = 0.02; y = 0.43;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
@@ -179,7 +179,7 @@ class playerSettings {
 		class btnDistanceMedium : w_RscButton {
 			idc = -1;
 			text = "Medium";
-			onButtonClick = "setViewDistance 2200;";
+			onButtonClick = "setViewDistance 1750; setObjectViewDistance 1500; setTerrainGrid 25;";
 			x = 0.02; y = 0.5;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
@@ -187,16 +187,40 @@ class playerSettings {
 		class btnDistanceFar : w_RscButton {
 			idc = -1;
 			text = "Far";
-			onButtonClick = "setViewDistance 3300;";
+			onButtonClick = "setViewDistance 3000; setObjectViewDistance 2500; setTerrainGrid 12.5;";
 			x = 0.02; y = 0.57;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
+		
+		class btnDistanceCustom : w_RscButton {
+			idc = -1;
+			text = "Custom";
+			onButtonClick = "call CHVD_fnc_openDialog";
+			x = 0.158; y = 0.57;
+			w = 0.125; h = 0.033 * safezoneH;
+		};
 
+		class btnDistanceEffects : w_RscButton {
+			idc = -1;
+			text = "Effects";
+			onButtonClick = "[] execVM 'addons\disableEnvironment\disableEnvironment.sqf'";
+			x = 0.158; y = 0.5;
+			w = 0.125; h = 0.033 * safezoneH;
+		};
+		
+			class TOParmaInfoButton : w_RscButton {
+			idc = -1;
+			text = "GamersInc. Info";
+			onButtonClick = "[] execVM 'addons\TOParmaInfo\loadTOParmaInfo.sqf'";
+			x = 0.225; y = 0.2;
+			w = 0.225; h = 0.033 * safezoneH;
+		};
+		
 		class btnDistanceInsane : w_RscButton {
 			text = "Insane";
 			onButtonClick = "setViewDistance 5000;";
 			x = 0.02; y = 0.60;
 			w = 0.125; h = 0.033 * safezoneH;
-		};*/
+		};
 	};
 };
