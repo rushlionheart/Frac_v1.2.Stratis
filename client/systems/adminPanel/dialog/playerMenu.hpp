@@ -142,6 +142,7 @@ class PlayersMenu
 		class PlayerEditBox:w_RscEdit
 		{
 			idc=playerMenuWarnMessage;
+			colorBackground[] = {0.275,0.322,0.235,1};
 			x = 0.60 * safezoneW + safezoneX;
 			y = 0.745 * safezoneH + safezoneY;
 			w = 0.175 * safezoneW;
@@ -245,6 +246,7 @@ class PlayersMenu
 		{
 			idc = -1;
 			text = "Warn";
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[1] execVM 'client\systems\adminPanel\playerSelect.sqf'";
 			x = 0.600 * safezoneW + safezoneX;
 			y = 0.70 * safezoneH + safezoneY;

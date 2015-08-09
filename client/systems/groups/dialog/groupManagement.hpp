@@ -44,7 +44,6 @@ class GroupManagement {
 
 		class MainTitle : w_RscText {
 			idc = -1;
-			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Group Management";
 			sizeEx = 0.04;
 			shadow = 2;
@@ -54,7 +53,6 @@ class GroupManagement {
 
 		class InviteTitleText : w_RscText {
 			idc = -1;
-			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Players";
 			sizeEx = 0.025;
 			shadow = 2;
@@ -64,7 +62,6 @@ class GroupManagement {
 
 		class GroupTitleText : w_RscText {
 			idc = -1;
-			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Your Group";
 			sizeEx = 0.025;
 			shadow = 2;

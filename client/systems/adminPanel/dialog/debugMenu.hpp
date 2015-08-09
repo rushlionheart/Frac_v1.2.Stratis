@@ -63,6 +63,7 @@ class DebugMenu
 		{
 			idc=-1;
 			text="Select";
+			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[2] execVM 'client\systems\adminPanel\optionSelect.sqf'";
 			x=0.345;
 			y=0.70;
