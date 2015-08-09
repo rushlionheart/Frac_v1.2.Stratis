@@ -139,6 +139,7 @@ class genstored
 			action = "[0] execVM 'client\systems\generalStore\buyItems.sqf'";
 			text = "Buy";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.334 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.507 * SZ_SCALE);
@@ -152,6 +153,7 @@ class genstored
 			action = "[0] execVM 'client\systems\generalStore\sellItems.sqf'";
 			text = "Sell";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.6233 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.507 * SZ_SCALE);
@@ -165,6 +167,7 @@ class genstored
 			action = "[0] call populateGeneralStore";
 			text = "Headgear";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.075 * SZ_SCALE);
@@ -178,6 +181,7 @@ class genstored
 			action = "[1] call populateGeneralStore";
 			text = "Uniforms";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.125 * SZ_SCALE);
@@ -191,6 +195,7 @@ class genstored
 			action = "[2] call populateGeneralStore";
 			text = "Vests";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.175 * SZ_SCALE);
@@ -204,6 +209,7 @@ class genstored
 			action = "[3] call populateGeneralStore";
 			text = "Backpacks";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.225 * SZ_SCALE);
@@ -217,6 +223,7 @@ class genstored
 			action = "[4] call populateGeneralStore";
 			text = "Items";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.275 * SZ_SCALE);
@@ -230,6 +237,7 @@ class genstored
 			action = "[5] call populateGeneralStore";
 			text = "Supplies";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.325 * SZ_SCALE);
@@ -243,6 +251,7 @@ class genstored
 			action = "[6] call populateGeneralStore";
 			text = "Objects";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.375 * SZ_SCALE);
@@ -256,6 +265,7 @@ class genstored
 			action = "[] execVM 'client\systems\selling\sellWeapon.sqf'";
 			text = "Sell Weapon";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.23 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.59 * SZ_SCALE);
@@ -269,6 +279,7 @@ class genstored
 			action = "[] execVM 'client\systems\selling\sellUniform.sqf'";
 			text = "Sell Uniform";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + ((0.604 - 0.25) * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.59 * SZ_SCALE);
@@ -282,6 +293,7 @@ class genstored
 			action = "[] execVM 'client\systems\selling\sellVest.sqf'";
 			text = "Sell Vest";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.478 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.59 * SZ_SCALE);
@@ -295,6 +307,7 @@ class genstored
 			action = "[] execVM 'client\systems\selling\sellBackpack.sqf'";
 			text = "Sell Backpack";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.602 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.59 * SZ_SCALE);
@@ -308,6 +321,7 @@ class genstored
 			action = "closeDialog 0";
 			text = "Cancel";
 			sizeEx = GenStoreButton_textSize;
+			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = GenStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = GenStoreMainBG_Y + (0.59 * SZ_SCALE);
