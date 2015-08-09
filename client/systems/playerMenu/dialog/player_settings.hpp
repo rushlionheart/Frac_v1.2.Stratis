@@ -67,7 +67,7 @@ class playerSettings {
 
 		class serverLogo : w_RscPicture {
 			idc = -1;
-			text = "mapconfig\Fractured.png";
+			text = "mapconfig\Fractured.paa";
 			x = 0.225; y = 0.20;
 			w = 0.32 / (4/3); h = 0.32;
 		};	
@@ -209,7 +209,7 @@ class playerSettings {
 		
 			class TOParmaInfoButton : w_RscButton {
 			idc = -1;
-			text = "GamersInc. Info";
+			text = "Fractured-Gaming Info";
 			onButtonClick = "[] execVM 'addons\TOParmaInfo\loadTOParmaInfo.sqf'";
 			x = 0.225; y = 0.2;
 			w = 0.225; h = 0.033 * safezoneH;
