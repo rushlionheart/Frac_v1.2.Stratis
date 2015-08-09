@@ -259,9 +259,9 @@ class w_RscButtonBase {
 	w = 0.183825;
 	h = 0.104575;
 
-	color[] = {0.95, 0.95, 0.95, 1};
+	color[] = {0.275,0.322,0.235,1};
 	color2[] = {1, 1, 1, 0.4};
-	colorBackground[] = {0.75, 0.75, 0.75, 0.8};
+	colorBackground[] = {0.275,0.322,0.235,1};
 	colorbackground2[] = {1, 1, 1, 0.4};
 	colorDisabled[] = {1, 1, 1, 0.25};
 
