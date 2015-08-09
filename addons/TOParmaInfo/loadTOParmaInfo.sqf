@@ -18,11 +18,11 @@ createDialog "TOParmaInfoD";
 _display = (findDisplay TOParmaInfo_dialog);
 
 _serverInfoText = _display displayCtrl TOParmaInfo_Server_Info;
-_serverInfoString = format ["<t color='#A0FFFFFF'>GamersInc Wasteland #%1 %2</t>", call A3W_extDB_ServerID, worldName];
+_serverInfoString = format ["<t color='#A0FFFFFF'>Fractured Wasteland #%1 %2</t>", call A3W_extDB_ServerID, worldName];
 _serverInfoText ctrlSetStructuredText parseText _serverInfoString;
 
 _generalInfoText = _display displayCtrl TOParmaInfo_General_Info_BG;
-_generalInfoString = "Website: <t color='#0091CD'><a href='http://www.GamersInc.co.za'>GamersInc.</a></t> Forums: <t color='#0091CD'><a href='http://www.GamersInc.co.za/forums'>GamersInc. Forums</a></t> TeamSpeak: ts.GamersInc.co.za";
+_generalInfoString = "Website: <t color='#0091CD'><a href='http://www.Fractured-Gaming.Com'>Fractured-Gaming.</a></t> Forums: <t color='#0091CD'><a href='http://www.GamersInc.co.za/forums'>GamersInc. Forums</a></t> TeamSpeak: ts.GamersInc.co.za";
 _generalInfoText ctrlSetStructuredText parseText _generalInfoString;
 
 
