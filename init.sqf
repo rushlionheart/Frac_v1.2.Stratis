@@ -88,7 +88,7 @@ if (hasInterface || isServer) then
 	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";
 	[] execVM "addons\scripts\servercredits.sqf"; //Intro Credits
 	[] execVM "addons\HvT\HvT.sqf"; // High Value Target
-	[] execVM "addons\HvT\HvD.sqf"; // High Value Drugs
+	//[] execVM "addons\HvT\HvD.sqf"; // High Value Drugs
 	[] execVM "addons\water_edge\functions.sqf";
 	if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; //Status Bar
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
