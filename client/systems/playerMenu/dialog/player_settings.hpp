@@ -171,7 +171,7 @@ class playerSettings {
 		class btnDistanceMedium : w_RscButton {
 			idc = -1;
 			text = "Medium";
-			onButtonClick = "setViewDistance 1750; setObjectViewDistance 1500; setTerrainGrid 25;";
+			onButtonClick = "setViewDistance 1500; setObjectViewDistance 1275; setTerrainGrid 25;";
 			x = 0.02; y = 0.5;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
@@ -179,7 +179,7 @@ class playerSettings {
 		class btnDistanceFar : w_RscButton {
 			idc = -1;
 			text = "Far";
-			onButtonClick = "setViewDistance 3000; setObjectViewDistance 2500; setTerrainGrid 12.5;";
+			onButtonClick = "setViewDistance 2000; setObjectViewDistance 1750; setTerrainGrid 12.5;";
 			x = 0.02; y = 0.57;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
@@ -210,7 +210,7 @@ class playerSettings {
 		
 		class btnDistanceInsane : w_RscButton {
 			text = "Insane";
-			onButtonClick = "setViewDistance 5000;";
+			onButtonClick = "setViewDistance 3000;";
 			x = 0.02; y = 0.60;
 			w = 0.125; h = 0.033 * safezoneH;
 		};
