@@ -37,7 +37,7 @@ class PlayersMenu
 		{
 			idc = -1;
 			colorText[] = {1, 1, 1, 1};
-			colorBackground[] = {0.275,0.322,0.235,1};
+			colorBackground[] = {0,0,0,0};
 			text = "#(argb,8,8,3)color(0.25,0.51,0.96,0.8)";
 
 			x = 0.1875 * safezoneW + safezoneX;
@@ -142,7 +142,6 @@ class PlayersMenu
 		class PlayerEditBox:w_RscEdit
 		{
 			idc=playerMenuWarnMessage;
-			colorBackground[] = {0.275,0.322,0.235,1};
 			x = 0.60 * safezoneW + safezoneX;
 			y = 0.745 * safezoneH + safezoneY;
 			w = 0.175 * safezoneW;
@@ -163,7 +162,6 @@ class PlayersMenu
 		class SpectateButton: w_RscButton
 		{
 			idc = playerMenuSpectateButton;
-			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Spectate";
 			onButtonClick = "[0] execVM 'client\systems\adminPanel\playerSelect.sqf'";
 			x = 0.2 * safezoneW + safezoneX;
@@ -175,7 +173,6 @@ class PlayersMenu
 		class SlayButton: w_RscButton
 		{
 			idc = -1;
-			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Slay";
 			onButtonClick = "[2] execVM 'client\systems\adminPanel\playerSelect.sqf'";
 			x = 0.2 * safezoneW + safezoneX;
@@ -187,7 +184,6 @@ class PlayersMenu
 		class UnlockTeamSwitchButton: w_RscButton
 		{
 			idc = -1;
-			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Unlock Team Switch";
 			onButtonClick = "[3] execVM 'client\systems\adminPanel\playerSelect.sqf'";
 			x = 0.255 * safezoneW + safezoneX;
@@ -199,7 +195,6 @@ class PlayersMenu
 		class UnlockTeamKillerButton: w_RscButton
 		{
 			idc = -1;
-			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Unlock Team Kill";
 			onButtonClick = "[4] execVM 'client\systems\adminPanel\playerSelect.sqf'";
 			x = 0.255 * safezoneW + safezoneX;
@@ -211,7 +206,6 @@ class PlayersMenu
 		class RemoveAllMoneyButton: w_RscButton
 		{
 			idc = -1;
-			colorBackground[] = {0.275,0.322,0.235,1};
 			text = "Remove Money";
 			onButtonClick = "[5] execVM 'client\systems\adminPanel\playerSelect.sqf'";
 			x = 0.3705 * safezoneW + safezoneX;
@@ -246,7 +240,6 @@ class PlayersMenu
 		{
 			idc = -1;
 			text = "Warn";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[1] execVM 'client\systems\adminPanel\playerSelect.sqf'";
 			x = 0.600 * safezoneW + safezoneX;
 			y = 0.70 * safezoneH + safezoneY;

@@ -26,7 +26,7 @@ class playerSettings {
 		{
 			idc = -1;
 			colorText[] = {1, 1, 1, 1};
-			colorBackground[] = {0.275,0.322,0.235,1};
+			colorBackground[] = {0,0,0,0};
 			text = "#(argb,8,8,3)color(0.25,0.51,0.96,0.8)";
 
 			x = 0;
@@ -124,7 +124,6 @@ class playerSettings {
 		class DropButton : w_RscButton {
 			idc = -1;
 			text = "Drop";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[1] execVM 'client\systems\playerMenu\itemfnc.sqf'";
 			x = 0.610; y = 0.525;
 			w = 0.116; h = 0.033 * safezoneH;
@@ -133,7 +132,6 @@ class playerSettings {
 		class UseButton : w_RscButton {
 			idc = -1;
 			text = "Use";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[0] execVM 'client\systems\playerMenu\itemfnc.sqf'";
 			x = 0.489; y = 0.525;
 			w = 0.116; h = 0.033 * safezoneH;
@@ -148,7 +146,6 @@ class playerSettings {
 		class DropcButton : w_RscButton {
 			idc = -1;
 			text = "Drop";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[] execVM 'client\systems\playerMenu\dropMoney.sqf'";
 			x = 0.489; y = 0.60;
 			w = 0.116; h = 0.033 * safezoneH;
@@ -157,7 +154,6 @@ class playerSettings {
 		class CloseButton : w_RscButton {
 			idc = close_button;
 			text = "Close";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[] execVM 'client\systems\playerMenu\closePlayerMenu.sqf'";
 			x = 0.02; y = 0.66;
 			w = 0.125; h = 0.033 * safezoneH;
@@ -166,7 +162,6 @@ class playerSettings {
 		class GroupsButton : w_RscButton {
 			idc = groupButton;
 			text = "Group Management";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[] execVM 'client\systems\groups\loadGroupManagement.sqf'";
 			x = 0.158; y = 0.66;
 			w = 0.225; h = 0.033 * safezoneH;
@@ -175,7 +170,6 @@ class playerSettings {
 		class btnDistanceNear : w_RscButton {
 			idc = -1;
 			text = "Near";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "setViewDistance 1200; setObjectViewDistance 900; setTerrainGrid 45;";
 			x = 0.02; y = 0.43;
 			w = 0.125; h = 0.033 * safezoneH;
@@ -184,7 +178,6 @@ class playerSettings {
 		class btnDistanceMedium : w_RscButton {
 			idc = -1;
 			text = "Medium";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "setViewDistance 1500; setObjectViewDistance 1275; setTerrainGrid 25;";
 			x = 0.02; y = 0.5;
 			w = 0.125; h = 0.033 * safezoneH;
@@ -193,7 +186,6 @@ class playerSettings {
 		class btnDistanceFar : w_RscButton {
 			idc = -1;
 			text = "Far";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "setViewDistance 2000; setObjectViewDistance 1750; setTerrainGrid 12.5;";
 			x = 0.02; y = 0.57;
 			w = 0.125; h = 0.033 * safezoneH;
@@ -202,7 +194,6 @@ class playerSettings {
 		class btnDistanceCustom : w_RscButton {
 			idc = -1;
 			text = "Custom";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "call CHVD_fnc_openDialog";
 			x = 0.158; y = 0.57;
 			w = 0.125; h = 0.033 * safezoneH;
@@ -211,7 +202,6 @@ class playerSettings {
 		class btnDistanceEffects : w_RscButton {
 			idc = -1;
 			text = "Effects";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[] execVM 'addons\disableEnvironment\disableEnvironment.sqf'";
 			x = 0.158; y = 0.5;
 			w = 0.125; h = 0.033 * safezoneH;
@@ -220,7 +210,6 @@ class playerSettings {
 			class TOParmaInfoButton : w_RscButton {
 			idc = -1;
 			text = "Fractured-Gaming Info";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[] execVM 'addons\TOParmaInfo\loadTOParmaInfo.sqf'";
 			x = 0.225; y = 0.2;
 			w = 0.225; h = 0.033 * safezoneH;
@@ -228,7 +217,6 @@ class playerSettings {
 		
 		class btnDistanceInsane : w_RscButton {
 			text = "Insane";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "setViewDistance 3000;";
 			x = 0.02; y = 0.60;
 			w = 0.125; h = 0.033 * safezoneH;

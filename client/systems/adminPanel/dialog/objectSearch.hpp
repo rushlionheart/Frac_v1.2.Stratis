@@ -1203,7 +1203,6 @@ class ObjectSearch
 		{
 			idc = idc_objectSearchFindButton;
 			text = "Find";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[0] execVM 'client\systems\adminPanel\objectSearchInteraction.sqf'";
 			x = 0.7375;
 			y = 0.2;
@@ -1243,7 +1242,6 @@ class ObjectSearch
 		{
 			idc = idc_objectSearchTeleportButton;
 			text = "Teleport";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[1] execVM 'client\systems\adminPanel\objectSearchInteraction.sqf'";
 			x = 29.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 19 * GUI_GRID_H + GUI_GRID_Y;
@@ -1254,7 +1252,6 @@ class ObjectSearch
 		{
 			idc = idc_objectSearchCancelButton;
 			text = "Clear map";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[2] execVM 'client\systems\adminPanel\objectSearchInteraction.sqf'";
 			x = 23.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 19 * GUI_GRID_H + GUI_GRID_Y;
@@ -1265,7 +1262,6 @@ class ObjectSearch
 		{
 			idc = idc_objectSearchCancelButton;
 			text = "Cancel";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "closeDialog 0;";
 			x = 17.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 19 * GUI_GRID_H + GUI_GRID_Y;

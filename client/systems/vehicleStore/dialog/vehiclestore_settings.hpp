@@ -34,7 +34,7 @@ class vehshopd
 		class TopBar: IGUIBack
 		{
 			idc = -1;
-			colorBackground[] = {0.275,0.322,0.235,1};
+			colorBackground[] = {0.275,0.322,0.235,0.8};
 
 			#define VehStoreTopBar_H (0.05 * SZ_SCALE)
 
@@ -116,7 +116,6 @@ class vehshopd
 			action = "[0] execVM 'client\systems\vehicleStore\buyVehicles.sqf'";
 			text = "Buy";
 			sizeEx = VehStoreButton_textSize;
-			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = VehStoreMainBG_X + (0.334 * SZ_SCALE);
 			y = VehStoreMainBG_Y + (0.507 * SZ_SCALE);
@@ -130,7 +129,6 @@ class vehshopd
 			action = "closeDialog 0";
 			text = "Cancel";
 			sizeEx = VehStoreButton_textSize;
-			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = VehStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = VehStoreMainBG_Y + (0.59 * SZ_SCALE);
@@ -144,7 +142,6 @@ class vehshopd
 			action = "[0] call populateVehicleStore";
 			text = "Land";
 			sizeEx = VehStoreButton_textSize;
-			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = VehStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = VehStoreMainBG_Y + (0.075 * SZ_SCALE);
@@ -158,7 +155,6 @@ class vehshopd
 			action = "[1] call populateVehicleStore";
 			text = "Armored";
 			sizeEx = VehStoreButton_textSize;
-			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = VehStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = VehStoreMainBG_Y + (0.125 * SZ_SCALE);
@@ -172,7 +168,6 @@ class vehshopd
 			action = "[2] call populateVehicleStore";
 			text = "Tanks";
 			sizeEx = VehStoreButton_textSize;
-			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = VehStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = VehStoreMainBG_Y + (0.175 * SZ_SCALE);
@@ -186,7 +181,6 @@ class vehshopd
 			action = "[3] call populateVehicleStore";
 			text = "Helicopters";
 			sizeEx = VehStoreButton_textSize;
-			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = VehStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = VehStoreMainBG_Y + (0.225 * SZ_SCALE);
@@ -200,7 +194,6 @@ class vehshopd
 			action = "[4] call populateVehicleStore";
 			text = "Planes";
 			sizeEx = VehStoreButton_textSize;
-			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = VehStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = VehStoreMainBG_Y + (0.275 * SZ_SCALE);
@@ -214,7 +207,6 @@ class vehshopd
 			action = "[5] call populateVehicleStore";
 			text = "Boats";
 			sizeEx = VehStoreButton_textSize;
-			colorBackground[] = {0.275,0.322,0.235,1};
 
 			x = VehStoreMainBG_X + (0.0167 * SZ_SCALE);
 			y = VehStoreMainBG_Y + (0.325 * SZ_SCALE);

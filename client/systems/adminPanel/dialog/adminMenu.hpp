@@ -28,7 +28,7 @@ class AdminMenu
 		{
 			idc = -1;
 			colorText[] = {1, 1, 1, 1};
-			colorBackground[] = {0.275,0.322,0.235,1};
+			colorBackground[] = {0,0,0,0};
 			text = "#(argb,8,8,3)color(0.25,0.51,0.96,0.8)";
 
 			x=0.28;
@@ -40,7 +40,6 @@ class AdminMenu
 		class AdminMenu_Title:w_RscText
 		{
 			idc=-1;
-			colorBackground[] = {0.275,0.322,0.235,1};
 			text="Admin Menu";
 			x=0.29;
 			y=0.108;
@@ -64,7 +63,6 @@ class AdminMenu
 		{
 			idc=-1;
 			text="Select";
-			colorBackground[] = {0.275,0.322,0.235,1};
 			onButtonClick = "[1] execVM 'client\systems\adminPanel\optionSelect.sqf'";
 			x=0.345;
 			y=0.70;
