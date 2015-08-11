@@ -191,14 +191,6 @@ class playerSettings {
 			w = 0.125; h = 0.033 * safezoneH;
 		};
 		
-		class TOParmaInfoButton : w_RscButton {
-			idc = -1;
-			text = "Fractured Gaming Info";
-			onButtonClick = "[] execVM 'addons\TOParmaInfo\loadTOParmaInfo.sqf'";
-			x = 0.228; y = 0.254;
-			w = 0.225; h = 0.033 * safezoneH;
-		};
-		
 		class btnDistanceCustom : w_RscButton {
 			idc = -1;
 			text = "Custom";
