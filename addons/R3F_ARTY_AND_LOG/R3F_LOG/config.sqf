@@ -219,5 +219,5 @@ R3F_LOG_CFG_objets_deplacables =
 	"Land_ToiletBox_F",
 	"Land_BarrelWater_F",
 	"Land_HandyCam_F",
-+	"Land_Laptop_unfolded_F"
+	"Land_Laptop_unfolded_F"
 ];
