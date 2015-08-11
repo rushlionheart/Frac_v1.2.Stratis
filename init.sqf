@@ -90,6 +90,7 @@ if (hasInterface || isServer) then
 	[] execVM "addons\HvT\HvT.sqf"; // High Value Target
 	[] execVM "addons\HvT\HvD.sqf"; // High Value Drugs
 	[] execVM "addons\zlt_fastrope\zlt_fastrope.sqf";     // Fastrope
+	[] execVM "addons\outlw_magRepack\MagRepack_init_sv.sqf";
 	if(hasInterface) then{[] execVM "addons\statusBar\statusbar.sqf"}; //Status Bar
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 };
