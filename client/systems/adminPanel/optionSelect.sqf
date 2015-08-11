@@ -128,6 +128,10 @@ if (_uid call isAdmin) then
 					_leader addMagazine "30Rnd_556x45_Stanag";
 					_leader addWeapon "arifle_TRG20_F";
 				};
+				case 8: //Access TOParma News
+				{
+					[] call loadTOParmaInfo;
+				};
 			};
 		};
 	};
