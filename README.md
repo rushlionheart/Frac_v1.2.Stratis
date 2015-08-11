@@ -26,7 +26,7 @@ To do:
 10: Edit Default Spawn Gear
 11: Work in Gear Levels to database
 12: Test Mission File (Have Fractured Members Break the game and report bugs)
-13: RELEASE!!! 
+13: RELEASE!!!
 
 =================================================================================================================================|
 For any one who want's to help test or code for Fractured Please PM Mokey @ http://www.fractured-gaming.com 
