@@ -143,6 +143,7 @@ A3W_scriptThreads pushBack execVM "addons\Lootspawner\LSclientScan.sqf";
 [] execVM "addons\UAV_Control\functions.sqf";
 [] execVM "addons\disableThermal\disablethermal.sqf";  //disable thermal vision
 [] execVM "addons\water_edge\functions.sqf";
+[] execVM "addons\cctv\functions.sqf";
 
 // View Distance Settings 
 CHVD_allowNoGrass = true; // Set 'false' if you want to disable "None" option for terrain (default: true)

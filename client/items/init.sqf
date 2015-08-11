@@ -19,4 +19,5 @@
 if (["A3W_atmEnabled"] call isConfigOn) then
 {
 	[_this, "atm"] call mf_init;
+	[_this, "cctv"] call mf_init;
 };
