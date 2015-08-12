@@ -1,32 +1,14 @@
 =================================================================================================================================|
-
-|         ___________                     __                           .___   ________               .__                         |
-
-|  ______ \_   _____/___________    _____/  |_ __ _________   ____   __| _/  /  _____/_____    _____ |__| ____    ____    ______ |
-
-| /_____/  |    __) \_  __ \__  \ _/ ___\   __\  |  \_  __ \_/ __ \ / __ |  /   \  ___\__  \  /     \|  |/    \  / ___\  /_____/ |
-
-| /_____/  |     \   |  | \// __ \\  \___|  | |  |  /|  | \/\  ___// /_/ |  \    \_\  \/ __ \|  Y Y  \  |   |  \/ /_/  > /_____/ |
-
-|          \___  /   |__|  (____  /\___  >__| |____/ |__|    \___  >____ |   \______  (____  /__|_|  /__|___|  /\___  /          |
-
-|              \/               \/     \/                        \/     \/          \/     \/      \/        \//_____/           |
-
+A3Wasteland Stratis
 =================================================================================================================================|
 
-=================================================================================================================================|
-
-# A3Wasteland Stratis
-
-=================================================================================================================================|
-
-Frac_v1.2 Update
+# Frac_v1.2 Update
 
 (This is a work in progress to update A3W_1.1b to A3W_1.2)
 
 ==============
 
-Legend:
+# Legend:
 
 [/] = In Progress
 
@@ -36,13 +18,15 @@ Legend:
 
 ==============
 
-To do:
+# To do:
 1:  [/] Work in all addons (to work properly, base files already ported)
 
 2:      Reformat TopArmaInfo to look proper in game
 
 3:  [x] Put drugs in the mission and in Gen store
-4:      Add stores to Mission.sqm (Must Match Old Versions Store Layout) [How To: http://fpsplayers.com/billing/knowledgebase.php?action=displayarticle&id=22 && http://forums.a3wasteland.com/index.php?topic=176.0 ]
+
+4:      Add stores to Mission.sqm (Must Match Old Versions Store Layout) 
+[How To: http://fpsplayers.com/billing/knowledgebase.php?action=displayarticle&id=22 && http://forums.a3wasteland.com/index.php?topic=176.0 ]
 
 5:      Add mission Markers to Mission.sqm (to include old and new missions)
 
