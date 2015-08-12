@@ -15,23 +15,24 @@ Frac_v1.2 Update
 
 ==============
 Legend:
+[/] = In Progress
 [x] = Finished
 ==============
 
 To do:
-1: Work in all addons (to work properly, base files already ported)
-2: Reformat TopArmaInfo to look proper in game
+1: [/] Work in all addons (to work properly, base files already ported)
+2:     Reformat TopArmaInfo to look proper in game
 3: [x] Put drugs in the mission and in Gen store
-4: Add stores to Mission.sqm
-5: Add mission Markers to Mission.sqm (to include old and new missions)
-6: Rework Altis Missions to be compatible with stratis
-7: Edit Store Prices
-8: Remove Planes, 2-man choppers from store
-9: Rename pilot masks to Gas Masks
-10: Edit Default Spawn Gear
-11: Work in Gear Levels to database
-12: Test Mission File (Have Fractured Members Break the game and report bugs)
-13: RELEASE!
+4:     Add stores to Mission.sqm
+5:     Add mission Markers to Mission.sqm (to include old and new missions)
+6:     Rework Altis Missions to be compatible with stratis
+7:     Edit Store Prices
+8:     Remove Planes, 2-man choppers from store
+9:     Rename pilot masks to Gas Masks
+10:    Edit Default Spawn Gear
+11:    Work in Gear Levels to database
+12:    Test Mission File (Have Fractured Members Break the game and report bugs)
+13:    RELEASE!
 
 =================================================================================================================================|
 For any one who want's to help test or code for Fractured Please PM Mokey @ http://www.fractured-gaming.com 
