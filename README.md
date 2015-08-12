@@ -52,11 +52,32 @@ A3Wasteland Stratis
 For any one who want's to help test or code for Fractured Please PM Mokey @ http://www.fractured-gaming.com 
 OR
 Email @ Mokey@fractured-gaming.com
-
 =================================================================================================================================|
+Oracle Virtual Box (for hosting on a virtural machine rather than your own PC):
+https://www.virtualbox.org/wiki/Downloads
+
+SQL Database (I use WAMP SERVER for ease of acess):
+Dependancy: Visual C++ Redistributable for Visual Studio 2012 Update 4: http://www.microsoft.com/en-us/download/details.aspx?id=30679
+WAMP SERVER: http://sourceforge.net/projects/wampserver/files/WampServer%202/Wampserver%202.5/wampserver2.5-Apache-2.4.9-Mysql-5.6.17-php5.5.12-64b.exe/download 
 
 How to set up your server:
 https://community.bistudio.com/wiki/Arma_3_Dedicated_Server
 
+DirectX Download/install prior to first start up of server:
+https://www.dropbox.com/s/3yv2gzwvc3zns30/DXSETUP.exe?dl=0
+
 A3W Server Files:
 https://github.com/A3Wasteland/Release_Files
+
+Notepad++ 
+https://notepad-plus-plus.org/download/v6.8.1.html
+
+Arma 3 Syntax Highlighting:
+http://www.armaholic.com/page.php?id=8680
+
+Everything You Need to edit anything on Arma 3
+http://www.armaholic.com/page.php?id=14435
+
+Github App for Windows:
+https://windows.github.com/
+
