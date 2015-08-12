@@ -13,10 +13,15 @@
 Frac_v1.2 Update
 (This is a work in progress to update A3W_1.1b to A3W_1.2)
 
+==============
+Legend:
+[x] = Finished
+==============
+
 To do:
 1: Work in all addons (to work properly, base files already ported)
 2: Reformat TopArmaInfo to look proper in game
-3: Put drugs in the mission and in Gen store
+3: [x] Put drugs in the mission and in Gen store
 4: Add stores to Mission.sqm
 5: Add mission Markers to Mission.sqm (to include old and new missions)
 6: Rework Altis Missions to be compatible with stratis
