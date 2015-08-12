@@ -16,7 +16,8 @@ Frac_v1.2 Update
 ==============
 Legend:
 [/] = In Progress
-[x] = Finished
+[*] = Finished
+[x] = Errors 
 ==============
 
 To do:
